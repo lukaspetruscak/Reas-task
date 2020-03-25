@@ -4,20 +4,10 @@
     color: $grey;
     overflow: hidden;
     padding: 1rem 4rem;
-    
-        img {
-            height: 3rem;
-            margin-left: 4rem;
-            float: left; 
-        }
-
-    
+      
         &--btn-container {
             float: right;
-            margin-right: 4%;
         }
-
-
 
         @mixin atSmall {
             .site-header--top {
@@ -31,7 +21,6 @@
             }
         }
     }
-
 
     &--sub {
         background-color: $grey;

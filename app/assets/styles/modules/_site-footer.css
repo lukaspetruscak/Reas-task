@@ -1,0 +1,72 @@
+.site-footer {
+   background-color: $lightGrey;
+   color: $silver;   
+   display: block;
+   padding: 2rem 4rem;
+   float: left;
+   width: 100%;
+
+
+    &--column {
+        position: relative;
+        display: inline-block;
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        li {
+            list-style: none;
+            font-weight: 600;
+            padding-right: 2rem;
+            color: white;           
+        }
+
+        a {
+            text-decoration: none;
+            color: $silver;   
+        }
+
+        &--adress {
+            margin-right: 25vw;
+            
+            &--text {
+                line-height: 6px;
+                padding-top: 6px;
+            }
+        }
+    
+        &--nav {
+        
+            a {
+                font-weight: 600;
+                margin-right: 2vw;                
+            }
+        }
+    
+        &--others{
+            
+            a {
+                font-weight: 300; 
+                margin-right: 10vw;           
+            }
+        }
+    
+        &--quickContact {
+            background-color: white;
+            padding: 1rem 10rem 1rem 2rem;
+            h3 {
+                line-height: 0.01;
+            }
+            
+            &--icons {
+                
+            }
+            &--texts {
+
+            }
+        }       
+    }
+}

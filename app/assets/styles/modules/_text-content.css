@@ -1,5 +1,5 @@
     .text-content {
-        color: rgb(165, 164, 164);
+        color: $silver;
         margin-bottom: 1rem;
 
         &--top-line {
@@ -7,5 +7,17 @@
             border-color: $light;
             margin-top: 1.5rem;
             padding-top: 2rem;
+        }
+        &--callToAction {
+            color: $lightGreen;
+            font-weight: 600;
+        }
+        &--phoneNumber {
+            color:$blue;
+            font-weight: 600;
+        }
+        &--hours {
+            font-size: 0.8rem;
+            line-height: 0;
         }
     }

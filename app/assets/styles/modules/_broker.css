@@ -1,3 +1,17 @@
 .broker {
-    
+    display: block;
+    &--photo {
+        height: 8rem;
+        float: left;
+    }
+    &--info {
+        
+        line-height: 0rem;
+    }
+
+    &--description {
+        float: left;
+        color: rgb(165, 164, 164);
+        margin-bottom: 1rem;
+    }
 }
