@@ -1,0 +1,11 @@
+    .text-content {
+        color: rgb(165, 164, 164);
+        margin-bottom: 1rem;
+
+        &--top-line {
+            border-top: solid;
+            border-color: $light;
+            margin-top: 1.5rem;
+            padding-top: 2rem;
+        }
+    }

@@ -1,0 +1,79 @@
+.nav {
+    &--primary{
+
+        &--pull-center {
+            float: left;
+            margin-left: 20%;
+        }
+
+        a {
+            float: left;
+            color: $grey;
+            text-align: center;
+            padding: 15px;
+            padding-right: 3rem;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            @mixin clearfix;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+        }
+
+        @mixin atSmall {
+            .primary-nav--pull-center {
+                float: none;
+            }
+        }
+    }
+
+    &--secondary{
+        &--pull-center {
+            float: none;
+            position: relative;
+            top: 50%;
+            left:40%;    
+        }
+    
+        a {
+            float: left;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        a:active, a:hover {
+            padding-bottom: 4px;
+            border-bottom: 3px solid white;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            @mixin clearfix;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+            text-align: center;
+            font-weight: 600;
+            padding-right: 2rem;
+            color: white;
+        }
+
+        @mixin atSmall {
+            .nav--secondary--pull-center {
+                float: none;
+            }
+        }
+    }
+}

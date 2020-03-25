@@ -1,0 +1,22 @@
+.headline {
+    font-weight: 700;
+    color: #152238; 
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+
+/*     @mixin  atSmall {
+        font-size: 1.5rem;
+    }
+
+    @mixin  atMedium {
+        font-size: 1.5rem;
+    }
+
+    @mixin  atLarge {
+        font-size: 2rem;
+    } */
+
+    &--small {
+        font-size: 1.2;
+    }
+}

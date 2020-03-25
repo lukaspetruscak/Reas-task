@@ -1,0 +1,18 @@
+html { scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $darkBlue;
+    background-color: rgb(236,241,248);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+* {
+    box-sizing: border-box;
+}
